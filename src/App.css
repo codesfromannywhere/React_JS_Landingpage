@@ -2,37 +2,133 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* ======= HEADER SECTION ======= */
+
+header {
+  background-color: lightseagreen;
+  height: 85vh;
+  padding: 0 5vw;
+}
+
+header>h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  padding-bottom: 3vh;
+}
+
+header h3 {
+  font-size: 2rem;
+  color: darkslategrey;
+  padding: 10vh 0 3vh 0;
+}
+
+hr {
+  width: 40%;
+  margin: 0 auto;
+  color: whitesmoke;
+}
+
+header>p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding: 5vh 0 3vh 0;
+}
+
+header section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin: 0 5vw;
 }
 
-.App-link {
-  color: #61dafb;
+header section h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  padding-top: 3vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header section p {
+  font-weight: bolder;
+}
+
+
+/* ======= FIRST SECTION ======= */
+
+section:nth-of-type(1) h3 {
+  color: lightseagreen;
+  margin-top: 10vh;
+}
+
+section:nth-of-type(1) h2 {
+  font-size: 2.5rem;
+  margin: 3vh 15vw;
+}
+
+
+/* ======= SECOND SECTION ======= */
+section:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vh 0;
+  margin: 0 10vw;
+}
+
+article {
+  display: flex;
+  text-align: left;
+  width: 35vw;
+  padding: 5vh 0vw;
+  margin: 0 1vw;
+}
+
+article svg {
+  width: 10vw;
+  height: 1.5rem;
+  padding: 0 1vw;
+}
+
+
+/* ======= FOOTER SECTION ======= */
+
+section:nth-of-type(3) {
+  background-color: #f0f3bd;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 5vw;
+  margin: 0 10vw;
+  text-align: left;
+}
+
+section:nth-of-type(3) div {
+  height: 50vh;
+}
+
+section:nth-of-type(3) img {
+  width: 0;
+  height: 0;
+  min-height: 50%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+section:nth-of-type(3) div p:nth-of-type(1) {
+  max-width: 20vw;
+}
+
+section:nth-of-type(3) div h4,
+p:nth-of-type(2) {
+  color: lightseagreen;
+  padding: 2vh 0 2vh 0;
 }
