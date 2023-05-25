@@ -41,36 +41,3 @@ const Secondsection
     }
 export default Secondsection
     ;
-
-
-
-    // const Secondsection = () => {
-//     return (
-//         <section>
-//             {launchItems.map((elt) => {
-//                 return (
-//                     <p></p>elt.img}</p>
-//                     <div>
-//                         <h3>{elt.headline}</h3>
-//                         <p>{elt.infotext}</p>
-//                     </div>
-//                 )
-//             }
-//             )}
-//         </section>
-//     );
-// }
-
-// export default Secondsection;
-
-
-// {
-//     launchItems.map((elt, i) =>
-//         <Secondsection
-//             key={i}
-//             img={elt.img}
-//             headline={elt.headline}
-//             infotext={elt.infotext}
-//         />
-//     )
-// }

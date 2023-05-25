@@ -2,7 +2,6 @@ import Salad from "../images/salat.jpeg";
 import Frikadellen from "../images/frikadellen.jpeg";
 import Glass from "../images/glass.jpeg";
 import Pizza from "../images/pizza.jpeg";
-import Pizza2 from "../images/pizza2.jpeg";
 import Scampi from "../images/scampi.jpeg";
 import Spaghetti from "../images/spagetthi.jpeg";
 import Teller from "../images/teller.jpeg";
@@ -70,7 +69,7 @@ const Footer = () => {
     return (
         recepies.map((elt) =>
             <div>
-                <img src={elt.img} />
+                <img src={elt.img} alt="meal" />
                 <h4>{elt.headline}</h4>
                 <p>{elt.infotext}</p>
                 <p>{elt.price}</p>
