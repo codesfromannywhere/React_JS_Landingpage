@@ -20,7 +20,7 @@ header {
   padding: 0 5vw;
 }
 
-header>h1 {
+header > h1 {
   font-size: 4rem;
   color: whitesmoke;
   padding-bottom: 3vh;
@@ -38,7 +38,7 @@ hr {
   color: whitesmoke;
 }
 
-header>p {
+header > p {
   width: 50%;
   margin: 0 auto;
   font-size: 1rem;
