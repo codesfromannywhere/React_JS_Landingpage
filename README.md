@@ -4,8 +4,8 @@
   
 My first React Landingpage! 
 
-## 🚀 Demo
-https://codesfromannywhere.github.io/React_JS_Landingpage/
+## 🚀 Demo on Netlify
+glint-food.netlify.app
 
 
 ## 🧐 Features
