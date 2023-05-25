@@ -1,3 +1,36 @@
+## Tasty! 
+
+# REACT LANDINGPAGE 
+  
+My first React Landingpage! 
+
+## 🚀 Demo
+https://codesfromannywhere.github.io/React_JS_Landingpage/
+
+
+## 🧐 Features
+
+*   first tryouts with different components 
+
+  
+## 💻 Built with
+
+*   HTML
+*   CSS
+*   REACT
+
+
+## 📷 Project Screenshots:
+#### Homepage:
+![Screenshot-Glint](https://user-images.githubusercontent.com/123948041/230324219-72a19d3a-6077-4aee-91de-a738f10c9f66.png)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
